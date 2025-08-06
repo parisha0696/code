@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class sample{
+    public static void main(String[]args){
+        Scanner scan=new Scanner(System.in);
+        
+       
+        System.out.println("enter the name");
+        String a =scan.nextLine();
+        System.out.println("enter the branch");
+        String b =scan.nextLine();
+        System.out.println("enter the email");
+        String c=scan.nextLine();
+        System.out.println("enter the percentage ");
+        String d=scan.nextLine();
+        System.out.println("Your Name : "+a);
+        System.out.println("Your Branch : "+b);
+        System.out.println("Your email  : "+c);
+        System.out.println("Your percentage : "+d);
+         
+    }
+    
+}

@@ -1,0 +1,46 @@
+import java.util.Scanner;
+public class switch_case {
+    public static void main(String[]args){
+        Scanner scan=new Scanner(System.in);
+        System.out.println("enter the first subject mark");
+        int a=scan.nextInt();
+        System.out.println("enter the second subject mark");
+        int b=scan.nextInt();
+        System.out.println("enter the third subject mark");
+        int c=scan.nextInt();
+        System.out.println("enter the fourth subject mark");
+        int d=scan.nextInt();
+        System.out.println("enter the fifth subject mark");
+        int e=scan.nextInt();
+        int total=a+b+c+d+e;
+        System.out.println(total);
+        int s=total/500; 
+        System.out.println(s);
+         char o=' ';
+        if(total>2)
+        {
+             o='a';
+        }
+        char p=' ';
+        if(total<=5) 
+        {
+            p='b';
+        }
+        
+        char u=scan.next().charAt(0);
+        switch(c){
+            case'a':
+                System.out.println("execellent");
+                break;
+            case'b':
+                System.out.println("good");
+            default:
+                System.out.println("not good");
+        }
+    }
+}
+        
+        
+        
+        
+        

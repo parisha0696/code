@@ -1,0 +1,13 @@
+public class CheckDigit {
+    public static void main(String[] args) {
+        char a = '5';
+
+        // Check if character is between '0' and '9'
+        if (a >= '0' && a <= '9') {
+            System.out.println("digit");
+        } else {
+            System.out.println("not a digit");
+        }
+    }
+}
+

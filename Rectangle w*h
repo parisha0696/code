@@ -1,0 +1,14 @@
+class rectangle {
+    static double area(){
+        int w= 10 ;
+        int h=5;
+       double result= w*h;
+        return result;
+    }
+    public static void main(String[] args) {
+         double z=area();
+    
+   System.out.println("area is"+z);
+    
+    }
+}

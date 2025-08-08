@@ -1,0 +1,14 @@
+class sector {
+    static double area(){
+        int r=2;
+       double theta=-0.05;
+       double result=0.5*theta*r*r;
+        return result;
+    }
+    public static void main(String[] args) {
+    double x=area();
+    
+  System.out.println("area is"+ x);
+    
+    }
+}

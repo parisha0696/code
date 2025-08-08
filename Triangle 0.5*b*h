@@ -1,0 +1,14 @@
+class triangle {
+    static double area(){
+        int b= 32;
+        int h=3;
+        double result=0.5*b*h;
+        return result;
+    }
+    public static void main(String[] args) {
+        double  d =area();
+    
+   System.out.println("area is :"+d);
+    
+    }
+}

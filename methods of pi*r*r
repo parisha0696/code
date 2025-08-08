@@ -1,0 +1,14 @@
+class circle {
+    static double area(){
+        int r=4;
+        double pi=3.14;
+        double result=pi*r*r;
+        return result;
+    }
+    public static void main(String[] args) {
+    double x=area();
+    
+    System.out.println("area is"+ x);
+    
+    }
+}

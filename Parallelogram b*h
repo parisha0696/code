@@ -1,0 +1,14 @@
+class parallelogram {
+  static double area(){
+        int b= 110 ;
+        int h=2;
+       double result= b*h;
+        return result;
+    }
+    public static void main(String[] args) {
+         double y=area();
+    
+   System.out.println("area is"+y);
+    
+    }
+}

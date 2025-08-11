@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class sample4 {
+    int d=90;
+    String a1="helo";
+    char c='k';
+    double d1=67.98f;
+    double d2=2345;
+    public static void area (sample4 t) {
+        Scanner scan=new Scanner (System.in);
+        char c1=scan.next().charAt(0);
+        if(c1==t.c) {
+        System.out.println(t.c);
+        System.out.println(t.d1);
+        }
+    }
+    public static void main(String[]args) {
+        sample4 s=new sample4();
+        int a=90;
+        area(s);
+        
+        
+    }
+        
+        
+    }
+    

@@ -1,0 +1,16 @@
+public class sample5 {
+    public static void main(String[]args) {
+       
+        int b[]={20,30,40,50,1,0};
+        int c=b[0];
+        for(int i=1;i<b.length;i++) {
+            
+         
+        if (b[i]<c) {
+           c=b[i];
+        }
+        }
+        System.out.println(c);
+        
+      }
+    }

@@ -1,0 +1,18 @@
+public class sample5 {
+public static void main(String[]args) {
+    int[][] matrix = {{23,54},{67,54},{87,98},{23,1}
+    };
+
+    int max = 0;
+    int secondMax=0;
+    for (int[] row : matrix) {
+        for (int num : row) {
+            if (num > max) {
+               secondMax = max;
+               max=num;
+            }
+        }
+    }
+    System.out.println(" second Largest element: " + secondMax);
+}
+}

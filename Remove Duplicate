@@ -1,0 +1,16 @@
+public class Remove {
+    public static void main(String[] args) {
+        String b = "java";
+        String result = "";
+
+        for (int i=0; i<b.length();i++) {
+            char ch = b.charAt(i);
+            if (result.indexOf(ch)==-1)
+         { 
+                result+= ch;
+            }
+        }
+
+        System.out.println("Output: " +result);
+    }
+}
